@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fetch and Graph NASA LOTI</title>
+</head>
+<body>
+    <script>
+        // DATA URL: https://data.giss.nasa.gov/gistemp/
+
+        getData();
+
+        async function getData() {
+            const response = await fetch('test.csv');
+            const data = await response.text();
+            console.log(data);
+
+            // split the csv data into lines in an oredrly manner using the string.prototype.split() 
+            // and remove the yeaar row using the array.prototype.slice()
+            const rows = data.split('\n').slice(1);
+            console.log(rows)
+            }
+    </script>
+</body>
+</html>

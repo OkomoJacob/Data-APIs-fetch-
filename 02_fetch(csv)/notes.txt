@@ -1,0 +1,5 @@
+dowload the nasa csv data: For world average temps(BOth Land-surface Air and Sea-surface water temp. anomallies)[Land-Ocean Temperatue Index-LOTI]
+DATA URL: https://data.giss.nasa.gov/gistemp/
+MEAN URL: https://earthobservatory.naasa.gov/world-of
+
+rainbowcsv extension for coloring csv on visual studio code
