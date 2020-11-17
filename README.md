@@ -1,6 +1,7 @@
-## Code-of-Conduct
+## Guiding Principles
+=====================
 
-This is a Code of Conduct for the JayLabs Learning community. This is largely applies to all interactions here on GitHub, Discord and my official website okomojacob.herokuapp.com	
+This is a Code of Conduct for the JayLabs Learning community. This is largely applies to all interactions here on GitHub, Discord and my official website ```okomojacob.herokuapp.com```
     Be mindful of your language. Any of the following behavior is unacceptable:
         Offensive comments related to gender identity and expression, sexual orientation, race, ethnicity, language, neuro-type, size, ability, class, religion, culture, subculture, political opinion, age, skill level, occupation, or background
         Threats of violence
