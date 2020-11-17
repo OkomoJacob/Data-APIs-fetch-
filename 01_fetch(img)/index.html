@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Jay Labs: Data/APIs 1</title>
 </head>
 <body>
-    <img src="img/usa.jpg" alt="" id="usa" width="450" height="300" />
+    <img src="" id="usa" width="450" height="300" />
     <script>
         console.log('about to fetch a usa map');
-
-        catchRainbow().catch(error => {
-            console.log('error!');
+        
+        catchUsa()
+        .then(response => {
+            console.log('Yaay!');
             console.error(error);
         });
-        async function catchRainbow() {
-            const response = await fetch('img/usa.jpg');
+        async function catchUsa() {
+            const response = await fetch('usa.jpg');
             const blob = await response.blob();
-            document.getElementById('usa').scr = URL.createObjectURL(blob);
+            document.getElementById('usa').src = URL.createObjectURL(blob);
         }
     </script>
 </body>
