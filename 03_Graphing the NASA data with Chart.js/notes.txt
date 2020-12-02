@@ -1,7 +1,8 @@
 dowload the nasa csv data: For world average temps(BOth Land-surface Air and Sea-surface water temp. anomallies)[Land-Ocean Temperatue Index-LOTI]
 
 DATA URL: https://data.giss.nasa.gov/gistemp/
-MEAN URL: https://earthobservatory.naasa.gov/world-of
+MEAN From    : https://earthobservatory.nasa.gov/world-of-change/DecadalTemp
 
 Chart.js Homepage: https://www.chartjs.org
 Chart.js Documentation: https://www.chartjs.org/docs/latest/
+Chart.js Doc. for custom y axes modifications: https://www.chartjs.org/docs/latest/axes/labelling.html
