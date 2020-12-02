@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch and Graph NASA LOTI</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+</head>
+<body>
+    <script>
+        // DATA URL: https://data.giss.nasa.gov/gistemp/
+        //
+        getData();
+
+        async function getData() {
+            const response = await fetch('ZonAnn.Ts+dSST.csv');
+            const data = await response.text();
+
+            // split the csv data into lines in an oredrly manner using the string.prototype.split() 
+            // and remove the year row using the array.prototype.slice()
+            const table = data.split('\n').slice(1);
+            // use forEach() to iterate through the dataset and split it
+            table.forEach(row => {
+                const columns = row.split(',');
+                const year = columns[0];
+                const temp = columns[1];
+                console.log(year, temp)
+            });
+            }
+    </script>
+</body>
+</html>
