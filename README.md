@@ -1,5 +1,5 @@
 ## Guiding Principles
-=====================
+<hr />
 
 This is a Code of Conduct for the JayLabs Learning community. This is largely applies to all interactions here on GitHub, Discord and my official website ```okomojacob.herokuapp.com```
     Be mindful of your language. Any of the following behavior is unacceptable:
@@ -27,6 +27,6 @@ Important links:
 
 dowload the nasa csv data: For world average temps(BOth Land-surface Air and Sea-surface water temp. anomallies)[Land-Ocean Temperatue Index-LOTI]
 
-DATA URL(https://data.giss.nasa.gov/gistemp/)
+DATA URL(https://data.giss.nasa.gov/gistemp/)<br />
 MEAN URL(https://earthobservatory.naasa.gov/)
 chart.js(https://www.chartjs.org)
